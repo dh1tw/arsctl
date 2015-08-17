@@ -28,7 +28,7 @@ Arsctl has been developed and tested under OSX and Linux (Ubuntu). However it sh
     `git clone https://github.com/dh1tw/arsctl.git`
 
 3. Browse into arsctl's directory and install all the needed dependencies with Node's package manager (NPM). All dependencies are registered in package.json
-    `npm install
+    `npm install`
 
 4. Configure your rotator and webserver setup (config.js).
 
