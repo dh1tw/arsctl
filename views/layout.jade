@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='stylesheets/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    block scripts
+  body(data-socket_port=socket_port)
+    block content
+  footer

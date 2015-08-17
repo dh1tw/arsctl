@@ -1,0 +1,28 @@
+extends layout
+
+head
+
+block scripts
+    script(src='/javascripts/jquery-1.11.1.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/heading.js')
+    script(src='/javascripts/jquery-cookie.js')
+    script(src='/javascripts/rotators.js')
+    
+block content
+  div#main.center
+     div.main-rotator
+         h3#main-rotator-heading None
+         div#heading-wrap
+             canvas#heading(width=200, height=200)
+     div#mini-rotators.hidden
+  div.messages
+     div#socket_lost_connection.msg.text-center.alert.alert-danger.hidden(role='alert')
+        i.fa.fa-spin.fa-spinner
+        |&nbsp &nbsp Reconnecting 
+     div#socket_connecting.msg.text-center.alert.alert-info(role='alert')
+        i.fa.fa-spin.fa-spinner
+        |&nbsp &nbsp Connecting to Server
+     div#socket_connected.msg.text-center.alert.alert-success.hidden(role='alert')
+        i.fa.fa-check-square-o
+        |&nbsp &nbsp Connected to Server

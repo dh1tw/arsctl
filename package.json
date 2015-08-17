@@ -1,0 +1,20 @@
+{
+  "name": "arsctl",
+  "version": "0.9.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.13.3",
+    "cookie-parser": "~1.3.5",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "debug": "~2.2.0",
+    "jade": "~1.11.0", 
+    "socket.io": "~1.3.6", 
+    "serialport": "~1.7.4",
+    "winston": "~1.0.1"
+  }
+}
