@@ -38,7 +38,7 @@ Arsctl has been developed and tested under OSX and Linux (Ubuntu). However it sh
 6. Open your browser and navigate to url put in the config file. For example
     http://localhost:4000
 
-## Installation (additional steps)
+## Installation (optional steps)
 
 1. It is recommended to separate the config file from the source code (e.g. /etc/arsctl/myConfig.js) so that the config file doesn't get overwritten on the next software update. Some configuration file examples are included in the `/examples/arsctl_config_files` folder.
 
