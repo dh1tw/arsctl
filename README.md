@@ -5,7 +5,7 @@ Arsctl is a server side application which makes all your antenna rotators availa
 
 ![Screenshot of arsctl in action](http://www.dh1tw.de/wp-content/uploads/2015/01/Screen-Shot-2014-11-13-at-02.06.42.png)
 
-The library has used in several major contests at [ED1R](http://www.ed1r.com) and has proven to be stable.
+The library has been used in several major contests at [ED1R](http://www.ed1r.com) and has proven to be stable.
 
 ## Documentation
 You can find a detailed description of arsctl on [DH1TW's blog](http://www.dh1tw.de/network-accessible-rotators). The source code is also well documented.
@@ -15,7 +15,7 @@ Arsctl supports [EA4TX' fabulous Antenna Rotator System (ARS)](http://www.ea4tx.
 
 
 ## License
-Arsctl is published under the [GPL open source license](https://github.com/dh1tw/arsctl/blob/master/gpl.md). Feel free to fork it!
+Arsctl is published under the [GPL open source license](https://github.com/dh1tw/arsctl/blob/master/gpl.md). Feel free to fork and collaborate!
 
 ## Supported OS
 Arsctl has been developed and tested under OSX and Linux (Ubuntu). However it should also work with some minor tweaks on other Linux distributions and Windows. It works very well on small ARM devices, like the Raspberry Pi & Banana Pi.
