@@ -429,11 +429,11 @@ function broadcastWT(msg){
 }
 
 // *******************************************************************************************
-// ** Create Socket.io Server and handle data sent from the WebClients
+// ** Create TCP socket for each rotator
 // **
-// ** This function handles the incomming data from the web clients. The web clients send
-// ** their commands according to Yaesu Protocol Description. E.g. "C2" is requesting the
-// ** azimuth position of the Rotator
+// ** This function creates a TCP socket you can connect to and control directly the
+// ** rotator. e.g. EA4TX's ARSVCOM http://www.ea4tx.com/arsvcom/
+// ** 
 // ** 
 // ** Note: Only a subset of the Yaesu Protocol has been implemented.
 // ** Find the Yaesu Protocol description here: 
