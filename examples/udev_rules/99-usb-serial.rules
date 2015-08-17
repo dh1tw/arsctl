@@ -1,0 +1,13 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A6008isP", SYMLINK+="arduino"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="00010" , SYMLINK+="ars10"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="00015" , SYMLINK+="ars15"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="00020" , SYMLINK+="ars20"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="00040" , SYMLINK+="ars40"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="00080" , SYMLINK+="arsOB11"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="S0010" , SYMLINK+="stack10"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="S0015" , SYMLINK+="stack15"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="S0020" , SYMLINK+="stack20"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f8e7", ATTRS{serial}=="S0040" , SYMLINK+="stack40"
+
+
+
