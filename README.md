@@ -1,5 +1,8 @@
 # ARSCTL - a flexible web interface for your antenna rotators
 
+** PROJECT DEPRECATED **
+This project is deprecated and has been replaced by [remoteRotator](https://github.com/dh1tw/remoteRotator).
+
 
 Arsctl is a server side application which makes all your antenna rotators available on a network. Arsctl allows you to conveniently control your rotators from any computer / tablet or smartphone through a slick web interface. Arsctl can also hook transparently into a [Win-Test](http://www.win-test.com) network and provide the rotators directly to the Win-Test application. Arsctl is based on [NodeJs](https://nodejs.org/) and written entirely in Javascript.
 
